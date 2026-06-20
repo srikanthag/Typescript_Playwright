@@ -1,1 +1,2 @@
-for (let i=1;)  
+let str = 'srikanth'
+console.log(str.); // SRIKANTH
