@@ -1,0 +1,42 @@
+npx playwright test 
+Runs all tests on all browsers in headless mode.
+
+
+npx playwright test --headed 
+Runs all tests in headed (non-headless) mode.
+
+
+npx playwright show-report 
+Opens the HTML test report.
+
+
+npx playwright test mytest.spec.ts 
+Runs a specific test file.
+
+
+npx playwright test --project=chromium --headed mytest.spec.ts
+Runs a specific test file only on Chromium in headed mode.
+
+
+npx playwright test mytest1.spec.ts mytest2.spec.ts
+Runs multiple specified test files.
+
+
+npx playwright test -g "test title" 
+Runs the test(s) that match the given title.
+
+
+npx playwright test --project=chromium 
+Runs all tests on the Chromium browser only.
+
+
+npx playwright test --debug 
+Runs tests in debug mode.
+
+
+npx playwright test example.spec.ts --debug 
+Debugs a specific test file.
+
+
+npx playwright test mytest.spec.ts –ui 
+Run the test in UI Mode
